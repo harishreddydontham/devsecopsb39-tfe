@@ -1,5 +1,6 @@
 module "alpha_sg_1" {
-  source        = "../modules/2.sg"
+  source  = "app.terraform.io/devsecopsb39hh/devsecopsb39-sg/aws"
+  version = "1.0.1"
   vpc_name      = module.alpha_vpc_1.vpc_name
   vpc_id        = module.alpha_vpc_1.vpc_id
   environment   = module.alpha_vpc_1.environment
