@@ -1,0 +1,12 @@
+gh auth login
+gh repo create terraform-aws-devsecopsb39-network --private
+gh repo create terraform-aws-devsecopsb39-sg --private
+gh repo create terraform-aws-devsecopsb39-nat --private
+gh repo create terraform-aws-devsecopsb39-iam --private
+gh repo create terraform-aws-devsecopsb39-compute --private
+gh repo create terraform-aws-devsecopsb39-elb-alb --private
+gh repo create terraform-aws-devsecopsb39-elb-nlb --private
+gh repo create terraform-aws-devsecopsb39-route53 --private
+gh repo create terraform-aws-devsecopsb39-secrets_manager --private
+gh repo create terraform-aws-devsecopsb39-rds --private
+
