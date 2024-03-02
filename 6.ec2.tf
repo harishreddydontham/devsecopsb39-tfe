@@ -1,6 +1,6 @@
 module "alpha_compute_1" {
   source  = "app.terraform.io/devsecopsb39hh/devsecopsb39-compute/aws"
-  version = "1.0.1"
+  version = "1.0.2"
   env    = module.alpha_vpc_1.environment
   amis = {
     us-east-1 = "ami-0149b2da6ceec4bb0" # ubuntu 20.04 LTS
